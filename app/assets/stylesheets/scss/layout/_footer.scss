@@ -1,0 +1,50 @@
+footer{
+    background: #3f241b;
+    padding: 40px 0px;
+
+    .footer-link{
+        display: flex;
+        justify-content: center;
+        
+        ul{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            @include respond-to(screen640){
+                flex-wrap: wrap;
+            }
+            li{
+                a{
+                    color: #fff;
+                    font-size: 18px;line-height: 18px;
+                    font-family: $Lato-Bold;
+                    padding: 15px;
+                    @include respond-to(screen640){
+                        font-size: 16px;line-height: 16px;display: inline-block;padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .contact-info{
+        margin-bottom: 30px;
+        p{
+            font-size: 18px;line-height: 28px;color:#825b46;text-align: center;
+            font-family: $Lato-Semibold;
+            @include respond-to(screen640){
+                font-size: 16px;line-height: 26px;
+            }
+        }
+    }
+    .copyright{
+        p{
+            text-align: center;
+            color: #dd9e7c;
+            font-size: 18px;line-height: 18px;
+            font-family: $Lato-Bold;
+            @include respond-to(screen640){
+                font-size: 16px;line-height: 26px;
+            }
+        }
+    }
+}

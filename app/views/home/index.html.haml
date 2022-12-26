@@ -1,0 +1,108 @@
+%main.wrapper
+  %section#home.main-banner
+    .container
+      .banner-content
+        .banner-content-left
+          .banner-logo
+            %img{:alt => "", :src => "/assets/banner-logo.png"}/
+        .banner-content-right
+          .cup-img
+            <!-- %img{:alt => "", :src => "/assets/tea-cup.png"}/ -->
+      #banner-tab1C.banner-tab-container
+        %img{:alt => "", :src => "/assets/no1.png"}/
+      #banner-tab2C.banner-tab-container
+        <!-- %img{:alt => "", :src => "/assets/no2.png"}/ -->
+      #banner-tab3C.banner-tab-container
+        <!-- %img{:alt => "", :src => "/assets/no3.png"}/ -->
+      #banner-tab4C.banner-tab-container
+        <!-- %img{:alt => "", :src => "/assets/no4.png"}/ -->
+      %ul#banner-tabs.banner-tabs-nav
+        %li
+          %a#banner-tab1
+            %img{:alt => "", :src => "/assets/tab-tea-img.png"}/
+        %li
+          %a#banner-tab2
+            %img{:alt => "", :src => "/assets/harbal-tea-img.png"}/
+        %li
+          %a#banner-tab3
+            %img{:alt => "", :src => "/assets/filter-tea-tabimg.png"}/
+        %li
+          %a#banner-tab4
+            %img{:alt => "", :src => "/assets/haldi-tabimg.png"}/
+  %section#Categories.best-sellers
+    .container
+      .common-title
+        %h3 POPULAR CATEGORIES
+        %h2 BEST SELLERS
+      .product-list
+        .product
+          .product-img-wrap
+            %img{:alt => "", :src => "/assets/tea-cup.png"}/
+          %h4 Tea
+        .product
+          .product-img-wrap
+            %img{:alt => "", :src => "/assets/filter-cup.png"}/
+          %h4 Filter Coffee
+        .product
+          .product-img-wrap
+            %img{:alt => "", :src => "/assets/harbal.png"}/
+          %h4 herbal Kadha
+        .product
+          .product-img-wrap
+            %img{:alt => "", :src => "/assets/haldi-mil.png"}/
+          %h4 Haldi Milk
+  %section#Franchisee.franchisee
+    .container
+      .common-title
+        %h3 Start your own business with us
+        %h2 Be a Franchisee
+      .franchisee-wrap
+        .franchisee-form
+          %form{:action => ""}
+            .fields-wrap
+              .fields
+                %label{:for => ""} Name :
+                %input.form-control{:id => "", :name => "", :placeholder => "Enter Your Name", :type => "text"}/
+              .fields
+                %label{:for => ""} Email :
+                %input.form-control{:id => "", :name => "", :placeholder => "Enter Your Email", :type => "text"}/
+              .fields
+                %label{:for => ""} Mobile Number :
+                %input.form-control{:id => "", :name => "", :placeholder => "Enter Your Mobile", :type => "text"}/
+              .fields
+                %label{:for => ""} City :
+                %input.form-control{:id => "", :name => "", :placeholder => "Enter Your City", :type => "text"}/
+              .captcha
+                %img{:alt => "", :src => "/assets/captcha.png"}/
+            %button.send Send
+        .franchisee-link
+          .link-list
+            %ul
+              %li
+                %a{:href => "www.facebook.com/metrochaiindia", :target => "_blank"}
+                  %img{:alt => "", :src => "/assets/fb.png"}/
+                  www.facebook.com/metrochaiindia
+              %li
+                %a{:href => "www.instagram.com/metrochaiindia", :target => "_blank"}
+                  %img{:alt => "", :src => "/assets/insta.png"}/
+                  www.instagram.com/metrochaiindia
+  %section#Social.social-media
+    %h2 Social Media
+    .container
+      #tab1C.tab-container
+        %ul.post-list
+          %li
+            %img{:alt => "", :src => "/assets/fb-post1.jpg"}/
+          %li
+            %img{:alt => "", :src => "/assets/fb-post2.jpg"}/
+      #tab2C.tab-container
+        %ul.post-list
+          %li
+            <!-- %img{:alt => "", :src => "/assets/insta-post1.jpg"}/ -->
+      %ul#tabs.aminites-tabs-nav
+        %li
+          %a#tab1
+            %img{:alt => "", :src => "/assets/color-fb.png"}/
+        %li
+          %a#tab2
+            %img{:alt => "", :src => "/assets/color-insta.png"}/

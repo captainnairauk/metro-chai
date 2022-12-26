@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title MetroChai
+    %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE = edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width = device-width, initial-scale = 1, maximum-scale = 1", :name => "viewport"}/
+    / Google
+    %meta{:content => " ", :name => "keywords"}/
+    %meta{:content => " ", :name => "description"}/
+    %meta{:content => " ", :name => "author"}/
+    %meta{:content => " ", :name => "copyright"}/
+    %link{:href => "images/fev.png", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %link{:href => "images/fev.png", :rel => "icon", :type => "image/x-icon"}/
+    %title Metro Chai
+  %body
+    =render :partial => "layouts/header" 
+    = yield
+    =render :partial => "layouts/footer" 
+
+
+
