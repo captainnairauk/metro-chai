@@ -93,6 +93,7 @@ GEM
       activesupport (>= 5.1)
       haml (>= 4.0.6)
       railties (>= 5.1)
+    hirb (0.7.3)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.5)
@@ -236,6 +237,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   haml-rails
+  hirb
   jbuilder (~> 2.7)
   listen (~> 3.3)
   puma (~> 5.0)

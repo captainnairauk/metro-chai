@@ -1,0 +1,3 @@
+<% if @contact.errors.present? %>
+  $('.popuperrors').html("<%= @contact.errors.full_messages.join(', ') %>")
+<% end %>
